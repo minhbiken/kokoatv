@@ -1,23 +1,63 @@
-# kokoatv
+# Nuxt 3 Minimal Starter
 
-> Nuxt.js project
+Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-## Build Setup
+## Setup
 
-``` bash
-# install dependencies
-$ npm install # Or yarn install
+Make sure to install the dependencies:
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+```bash
+# npm
+npm install
 
-# build for production and launch server
-$ npm run build
-$ npm start
+# pnpm
+pnpm install
 
-# generate static project
-$ npm run generate
+# yarn
+yarn install
 ```
 
-For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
+## Development Server
 
+Start the development server on `http://localhost:3000`:
+
+```bash
+# npm
+npm run dev
+
+# pnpm
+pnpm run dev
+
+# yarn
+yarn dev
+```
+
+## Production
+
+Build the application for production:
+
+```bash
+# npm
+npm run build
+
+# pnpm
+pnpm run build
+
+# yarn
+yarn build
+```
+
+Locally preview production build:
+
+```bash
+# npm
+npm run preview
+
+# pnpm
+pnpm run preview
+
+# yarn
+yarn preview
+```
+
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.

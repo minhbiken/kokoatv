@@ -1,0 +1,4 @@
+<template>
+    <HeaderLogo />
+    <HeaderMenu />
+</template>
